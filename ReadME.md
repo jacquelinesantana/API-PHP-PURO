@@ -123,7 +123,7 @@ Ai esta a parte que geralmente faz iniciantes em PHP perder o sono, veja que seu
 
 Para tornar o entendimento dessa parte mais visual, veja a imagem da minha estrutura de arquivos, *obs apenas olhe a estrutura para seguir como base, não precisa replicar em seu projeto*:
 
-![image-20230701164549014](.\img\image-20230701164549014.png)
+![image-20230701164549014](img\image-20230701164549014.png)
 
 Conforme a imagem, podemos notar que temos o diretório src, dentro do mesmo temos a pasta Core, dentro dessa pasta temos a classe Router.php.
 
