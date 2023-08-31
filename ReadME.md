@@ -23,7 +23,7 @@ Para começar nossa aventura "PHPatíca" vamos criar o nosso projeto e para isso
 
 Até o momento seguimos da seguinte forma:
 
-![image-20230630214535718](C:\Users\tijac\AppData\Roaming\Typora\typora-user-images\image-20230630214535718.png)
+![image-20230630214535718](img/image-20230630214535718.png)
 
 7. no arquivo Json gerado vou alterar src para App e salvar o arquivo.
 
@@ -62,7 +62,7 @@ Até o momento seguimos da seguinte forma:
 
 resultado esperado:
 
-![image-20230701002738891](C:\Users\tijac\AppData\Roaming\Typora\typora-user-images\image-20230701002738891.png)
+![image-20230701002738891](img/image-20230701002738891.png)
 
 Tudo funcionando, agora só precisamos iniciar nova navegação dentro da pasta public, para isso vamos adicionar um arquivo .htaccess na raiz do projeto.
 
@@ -77,7 +77,7 @@ RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
 
 o código acima deve resolver a questão e direcionar sempre o inicio da navegação para pasta public/, faça o teste recarregando o seu navegador para a sua url, resultado esperado:
 
-![image-20230701004443801](C:\Users\tijac\AppData\Roaming\Typora\typora-user-images\image-20230701004443801.png)
+![image-20230701004443801](img/image-20230701004443801.png)
 
 Dentro do diretório public/ também vamos incluir um arquivo .htaccess para já irmos ajustando esse ambiente. Esse arquivo ficará:
 
