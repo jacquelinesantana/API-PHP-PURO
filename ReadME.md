@@ -23,7 +23,7 @@ Para começar nossa aventura "PHPatíca" vamos criar o nosso projeto e para isso
 
 Até o momento seguimos da seguinte forma:
 
-![image-20230630214535718](img/image-20230630214535718.png)
+![instalando os recursos - criar projeto](img/image-20230630214535718.png)
 
 7. no arquivo Json gerado vou alterar src para App e salvar o arquivo.
 
@@ -62,7 +62,7 @@ Até o momento seguimos da seguinte forma:
 
 resultado esperado:
 
-![image-20230701002738891](img/image-20230701002738891.png)
+![api sendo estruturada](img/image-20230701002738891.png)
 
 Tudo funcionando, agora só precisamos iniciar nova navegação dentro da pasta public, para isso vamos adicionar um arquivo .htaccess na raiz do projeto.
 
@@ -77,7 +77,7 @@ RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
 
 o código acima deve resolver a questão e direcionar sempre o inicio da navegação para pasta public/, faça o teste recarregando o seu navegador para a sua url, resultado esperado:
 
-![image-20230701004443801](img/image-20230701004443801.png)
+![navegador com o ola mundo](img/image-20230701004443801.png)
 
 Dentro do diretório public/ também vamos incluir um arquivo .htaccess para já irmos ajustando esse ambiente. Esse arquivo ficará:
 
@@ -123,7 +123,7 @@ Ai esta a parte que geralmente faz iniciantes em PHP perder o sono, veja que seu
 
 Para tornar o entendimento dessa parte mais visual, veja a imagem da minha estrutura de arquivos, *obs apenas olhe a estrutura para seguir como base, não precisa replicar em seu projeto*:
 
-![image-20230701164549014](img\image-20230701164549014.png)
+![estrutura de arquivos](img/image-20230701164549014.png)
 
 Conforme a imagem, podemos notar que temos o diretório src, dentro do mesmo temos a pasta Core, dentro dessa pasta temos a classe Router.php.
 
